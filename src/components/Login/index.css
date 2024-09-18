@@ -1,0 +1,22 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
+
+@media (min-width: 601px) {
+  form {
+    width: 400px;
+  }
+}
